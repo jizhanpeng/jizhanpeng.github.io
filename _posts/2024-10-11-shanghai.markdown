@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "Hello shanghai"
+subtitle:   ""
+date:       2024-10-11 19:13:00
+author:     "JIzp"
+header-img: "img/bg-little-universe.jpg"
+tags:
+    - Life
+---
+
+> ***闲暇之余出去走走***
+
+![shanghai_01](D:\博客模板\shanghai\shanghai_01.JPG)
+
+![shanghai_01](D:\博客模板\shanghai\shanghai_01.JPG)
+
+![shanghai_01](D:\博客模板\shanghai\shanghai_01.JPG)
