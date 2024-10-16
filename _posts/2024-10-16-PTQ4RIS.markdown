@@ -4,7 +4,7 @@ title:      "PTQ4RIS"
 subtitle:   "PTQ4RTS阅读"
 date:       2024-10-16 19:05:00
 author:     "JIzp"
-header-img: "img/bg-little-universe.jpg"
+header-img: "img/PTQ4RIS.png"
 tags:
     - paper
 ---
