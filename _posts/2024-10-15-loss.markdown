@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "损失函数"
+subtitle:   ""
+date:       2024-10-15 16:30:00
+author:     "JIzp"
+header-img: "img/bg-little-universe.jpg"
+tags:
+    - base
+---
+
+# 损失函数
+
+## *什么是损失函数？*
+
+神经网络的标准和你心中标准相比较，相差多少的定量表达。
+
+## 最小二乘法
+
+预测值和实际值的距离，预测值和实际值相减，求平方，累加。
+
+![image-20241015164348000](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241015164348000.png)
+
+## 极大似然估计
+
+首先，似然是指通过结果来反推出现这个结果最可能的原因。
+
+![b76a3a3f36903f1868fa4b25863133f4](D:\QQ聊天记录\Tencent Files\2453194789\nt_qq\nt_data\Pic\2024-10\Ori\b76a3a3f36903f1868fa4b25863133f4.png)
+
+交叉熵最终的表现形式和极大似然估计一样。
