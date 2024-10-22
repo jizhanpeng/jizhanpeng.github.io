@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "PTQ4RIS"
-subtitle:   "PTQ4RTS阅读"
-date:       2024-10-16 19:05:00
+title:      "CLIP"
+subtitle:   "CLIP阅读"
+date:       2024-10-22 17:32:00
 author:     "JIzp"
 header-img: "img/bg-little-universe.jpg"
 tags:
