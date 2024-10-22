@@ -25,7 +25,7 @@ tags:
 
 在最开始，图像用cnn提取特征，文本使用text transformer，目标是预测图片对应的文本，但是效率很低。
 
-![image-20241022155955003](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241022155955003.png)
+![image-20241022155955003](/img/clip01)
 
 后来注意到对比学习的研究，对比学习的效果更好，作者探索了一个训练体系，改为预测哪个文本作为一个整体与哪个图像配对，效率大幅度提高。
 
@@ -39,7 +39,7 @@ tags:
 
 先把单词变成句子，然后使用文本编码器获取特征。把照片给图片编码器，获取图片特征，用图片特征和文本特征算余弦相似度，取最大值（简单来说就是输入一张图片，然后一句话一句话问，你是不是飞机？你是不是狗？你是不是人？）。
 
-![image-20241022160642013](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241022160642013.png)
+![image-20241022160642013](/img/clip02)
 
 ## Promet Enginerring & Promet Ensembling
 
