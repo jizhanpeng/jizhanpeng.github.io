@@ -27,7 +27,7 @@ tags:
 
 在下图中，Pixel Space是像素空间，Lantent Space是潜在空间，Conditioning是条件输入。像素空间X经过压缩操作得到Z，将Z进行扩散模型前向传播就有了ZT，如果有条件输入，在Conditioning中将条件输入投影为T，将ZT和Tconcat送进U-net学习噪声，得到ZT-1的潜在空间，然后继续反向，直到得到Z0，最终Z0解码生成新的X。
 
-![image-20241024101155368](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241024101155368.png)
+![image-20241024101155368](/img/LDM01.png)
 
 ## Conditioning Mechanisms
 
@@ -43,7 +43,7 @@ tags:
 
 左右两边对齐的空间维度相同，这样可以进行concat的操作（右边会有一半是白色的）。
 
-![u-net](C:\Users\24531\Desktop\u-net.png)
+![u-net](/img/LDM02.png)
 
 ### U-net++
 
@@ -55,5 +55,5 @@ U-net++解决了这样的问题。
 
 同时U-net++也添加了损失函数。
 
-![U-net++](C:\Users\24531\Desktop\U-net++.jpg)
+![U-net++](/img/LDM03.jpg)
 
