@@ -19,11 +19,10 @@ tags:
 
 ## 目录结构
 
-StampDatasetProject
+- StampDatasetProject
 
-​					pre.py
-
-​					stamp.py
+    - pre.py
+    - stamp.py
 
 pre.py用来制作印章模板
 
