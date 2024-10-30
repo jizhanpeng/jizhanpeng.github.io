@@ -33,7 +33,7 @@ A3：去便利所有组件的文档，数据小于阈值的进行数据增加，
 4. 过滤掉无效的网格坐标(x1>x2,y1>y2)(原有的网格，准备添加的网格计算iou)。
 5. 遍历候选组件，遍历网格，选取填充率最高的填充。
 
-![image-20241029105341650](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241029105341650.png)
+![image-20241029105341650](/img/DOCLAYOUT-YOLO05.png)
 
 ## GLOBAL-TO-LOCAL MODEL ARCHITECTURE
 
@@ -43,7 +43,7 @@ YOLOV10
 
 ### 修改了Baseline哪些部分
 
-<img src="D:\QQ聊天记录\Tencent Files\2453194789\nt_qq\nt_data\Pic\2024-10\Ori\ebeb74fb4a735875be57f1e40b864a0f.png" alt="ebeb74fb4a735875be57f1e40b864a0f" style="zoom: 50%;" /><img src="D:\QQ聊天记录\Tencent Files\2453194789\nt_qq\nt_data\Pic\2024-10\Ori\76eb7fd683779d4696302abfa91ef8a5.png" alt="76eb7fd683779d4696302abfa91ef8a5" style="zoom:50%;" />
+<img src="/img/DOCLAYOUT-YOLO01.png" alt="ebeb74fb4a735875be57f1e40b864a0f" style="zoom: 50%;" /><img src="/img/DOCLAYOUT-YOLO02.png" alt="76eb7fd683779d4696302abfa91ef8a5" style="zoom:50%;" />
 
 ### CONTROLLABLE RECEPTIVE MODULE
 
@@ -57,7 +57,7 @@ YOLOV10
 
 3 x 3 卷积
 
-![image-20241030100545983](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241030100545983.png)
+![image-20241030100545983](/img/DOCLAYOUT-YOLO03.png)
 
 ### GLOBAL-TO-LOCAL DESIGN
 
@@ -73,4 +73,4 @@ YOLOV10
 
   对于深层直接CSP
 
-![image-20241030123940135](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241030123940135.png)
+![image-20241030123940135](/img/DOCLAYOUT-YOLO04.png)
