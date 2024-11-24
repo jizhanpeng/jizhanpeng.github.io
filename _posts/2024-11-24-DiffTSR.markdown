@@ -9,7 +9,7 @@ tags:
     - paper
 ---
 
-# Diffusion-based Blind Text Image Super-Resolution
+# Diffusion-based Blind Text Image Super-Resolutiongengai
 
 ------
 
