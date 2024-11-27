@@ -50,11 +50,11 @@ $$
 
 - 腐蚀：以结构元素为模板（有一个结构元），将结构元移动到图像的每个像素点的位置，如果模板内全是1结构元位置就是1，否则结构元位置置为0。
 
-![这里写图片描述](https://img-blog.csdn.net/20180319221250162?watermark/2/text/Ly9ibG9nLmNzZG4ubmV0L0NoYW9sZWkz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](/img/AccDiffusion04.png)
 
 - 膨胀（这个操作貌似不止一个方法）：以结构元素为模板（有一个结构元），将结构元移动到图像的每个像素点的位置，将结构元素位置全部置为1。
 
-![img](https://i-blog.csdnimg.cn/blog_migrate/a350e903030f2ec4b46f0c05c0a60b3e.png)
+![img](/img/AccDiffusion05.png)
 
 现在每一个补丁都对应了一套掩码图（通道维度上的每一张图片对应一个词），现在数每张掩码图中的1，如果大于阈值，就保留该词，否则不保留。至此，实现了提示词解耦。
 
