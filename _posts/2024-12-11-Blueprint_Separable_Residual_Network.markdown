@@ -29,7 +29,7 @@ tags:
 
 ### 深度可分离卷积
 
-![image-20241209183541164](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241209183541164.png)
+![image-20241209183541164](/img/Blueprint01.png)
 
 正常卷积如果输入是三通道输出需要三通道，那么我们需要三个3 * 3 * 3 * 3的卷积核。
 
@@ -37,19 +37,19 @@ tags:
 
 ### 正文：
 
-![image-20241209182043483](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241209182043483.png)
+![image-20241209182043483](/img/Blueprint02.png)
 
 在预处理阶段，输入图像首先被复制n次，然后将这些图像沿通道维度拼接在一起。接下来是浅层特征提取部分将输入图像映射到一个高维特征空间。浅层特征随后通过一组堆叠的ESDB进行深层特征提取。
 
 ## Efficient Separable Distillation Block
 
-![image-20241209190854640](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241209190854640.png)![image-20241209191014066](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241209191014066.png)![image-20241209191046127](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241209191046127.png)
+![image-20241209190854640](/img/Blueprint03.png)![image-20241209191014066](/img/Blueprint04.png)![image-20241209191046127](/img/Blueprint05.png)
 
 这个步骤是这样一个过程，左边是1 * 1卷积降维（精细特征），右边是深度可分离卷积的反向版本（正常深度可分离卷积是1 * 1卷积在后的，这里在前）加激活函数（得到的是粗略特征），将得到的四个精细特征concat，再用1 * 1卷积降维，然后依次通过ESA、CCA。
 
 ## Attention modules of ESA and CCA
 
-![image-20241211145000381](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241211145000381.png)![image-20241211145018921](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20241211145018921.png)
+![image-20241211145000381](/img/Blueprint06.png)![image-20241211145018921](/img/Blueprint07.png)
 
 ### ESA
 
