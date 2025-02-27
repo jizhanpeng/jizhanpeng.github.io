@@ -25,13 +25,13 @@ tags:
 
 ### 概述
 
-![image-20250212163514630](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20250212163514630.png)
+![image-20250212163514630](/img/TTLEA.png)
 
 低分辨率图像首先通过空间变换网络STN进行校正，然后使用浅层卷积神经网络提取浅层特征X，随后X将会进入引导生成分支和超分辨率分支。在引导生成分支中，位置增强模块以注意力序列和X作为输入，生成选定特征，然后多模态对齐模块使用文本分布和选定特征进行视觉-语义双向对齐。在超分辨率分支中X会经过N个堆叠的模块，每个模块包含一个自适应融合模块和一个序列循环块。最后，通过 PixelShuffle 操作增加空间尺度。
 
 ## 位置增强模块
 
-![image-20250223125355882](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20250223125355882.png)
+![image-20250223125355882](/img/TTLEA01.png)
 
 使用一个预训练好的文本识别器生成注意力图序列，这个时候形状是T H W。
 
@@ -53,7 +53,7 @@ tags:
 
 ## 多模态对准模块
 
-![image-20250223125440800](C:\Users\24531\AppData\Roaming\Typora\typora-user-images\image-20250223125440800.png)
+![image-20250223125440800](/img/TTLEA02.png)
 
 ### 语义提取
 
